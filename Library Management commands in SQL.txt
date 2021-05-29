@@ -1,0 +1,11 @@
+create database library_m;
+use library_m;
+create table books(bname varchar(50) , bcode varchar(10), total int, subject varchar(50));
+create table issue(Sname varchar(50) , Regcode varchar(10), Bcode int, Dateissue varchar(50));
+create table submit(Sname varchar(50) , Regcode varchar(10), Bcode int, Datesubmitted varchar(50));
+describe books;
+describe issue;
+describe submit;
+
+
+///// After Updating the Data in system use ( select * from books/issue/submit ) according to the updation made
